@@ -35,14 +35,17 @@ $(document).ready(function(e){
   })
 
   
-  var typed_2 = new Typed('#typed_2', {
-    strings:[
-        'currently 3rd year CS Student at UBC.'
-    ],
-    typeSpeed:50,
-    backSpeed:50,
-    loop: true
-})
+//   var typed_2 = new Typed('#typed_2', {
+//     strings:[
+//         'currently 3rd year CS Student at UBC.'
+//     ],
+//     typeSpeed:50,
+//     backSpeed:50,
+//     loop: true
+// }
+
+// )
+
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e){
